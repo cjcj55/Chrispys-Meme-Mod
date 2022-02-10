@@ -1,5 +1,10 @@
 {
   "item.chrispymememod.dice": "Dice",
+  "item.chrispymememod.lightning_staff_meme_item": "Lightning Staff Meme",
+  "item.chrispymememod.knockback_stick_1_item": "Knockback Stick Mk. I",
+  "item.chrispymememod.knockback_stick_2_item": "Knockback Stick Mk. II",
+  "item.chrispymememod.knockback_stick_3_item": "Knockback Stick Mk. III",
+  "item.chrispymememod.knockback_stick_4_item": "Knockback Stick Mk. IV",
 
   "sound.chrispymememod.dice_roll": "Dice Roll",
 

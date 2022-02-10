@@ -25,7 +25,7 @@ public class DiceItem extends Item {
         ItemStack stack = player.getItemInHand(hand);
         Random random = new Random();
         int num = random.nextInt(1, 6);
-        player.getCooldowns().addCooldown(this, 20);
+        player.getCooldowns().addCooldown(this, 55);
         level.playSound(player, player.getX(), player.getY(), player.getZ(), SoundInit.DICE_ROLL.get(), SoundSource.PLAYERS, 1f, 0.4F / (random.nextFloat() * 0.4F + 0.8F));
         // TODO: Create List<> for items that may be spawned from rolling the die
         if (!level.isClientSide) {

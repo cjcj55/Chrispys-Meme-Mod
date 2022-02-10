@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "chrispymememod:item/knockback_stick_1_item"
+    }
+}

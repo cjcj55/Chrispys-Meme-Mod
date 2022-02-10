@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "chrispymememod:item/lightning_staff_meme_item"
+    }
+}
