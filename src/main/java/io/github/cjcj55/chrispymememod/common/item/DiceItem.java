@@ -31,13 +31,11 @@ public class DiceItem extends Item {
         if (!level.isClientSide) {
             ItemEntity entity = new ItemEntity(level, player.getX(), player.getY(), player.getZ(), new ItemStack(ItemInit.DICE_ITEM.get(), 1));
             level.addFreshEntity(entity);
-            level.playSound(player, player.getX(), player.getEyeY(), player.getZ(), SoundInit.DICE_ROLL.get(), SoundSource.PLAYERS, 1f, 1f);
+            level.playSound((Player)null, player.getX(), player.getY(), player.getZ(), SoundEvents.GHAST_SHOOT, SoundSource.NEUTRAL, 0.5F, 0.4F / (random.nextFloat() * 0.4F + 0.8F));
             if (!player.isCreative()) {
                 stack.shrink(1);
             }
         }
-
-
         return InteractionResultHolder.success(stack);
     }
 }
