@@ -5,8 +5,13 @@
   "item.chrispymememod.knockback_stick_2_item": "Knockback Stick Mk. II",
   "item.chrispymememod.knockback_stick_3_item": "Knockback Stick Mk. III",
   "item.chrispymememod.knockback_stick_4_item": "Knockback Stick Mk. IV",
+  "item.chrispymememod.airhorn_meme_item": "Airhorn",
+  "item.chrispymememod.pixie_dust_item": "Pixie Dust",
 
   "sound.chrispymememod.dice_roll": "Dice Roll",
+  "sound.chrispymememod.airhorn_meme": "Airhorn",
+
+  "effect.chrispymememod.flight": "Flight",
 
   "itemGroup.chrispymememod": "Chrispy's Meme Mod"
 }

@@ -4,5 +4,11 @@
     "sounds": [
       "chrispymememod:dice_roll"
     ]
+  },
+  "airhorn_meme": {
+    "subtitle": "sounds.chrispymememod.airhorn_meme",
+    "sounds": [
+      "chrispymememod:airhorn_meme"
+    ]
   }
 }

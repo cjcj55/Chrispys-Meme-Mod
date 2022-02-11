@@ -2,6 +2,7 @@ package io.github.cjcj55.chrispymememod;
 
 import io.github.cjcj55.chrispymememod.core.init.BlockInit;
 import io.github.cjcj55.chrispymememod.core.init.ItemInit;
+import io.github.cjcj55.chrispymememod.core.init.MobEffectInit;
 import io.github.cjcj55.chrispymememod.core.init.SoundInit;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -26,6 +27,7 @@ public class ChrispyMemeMod
         BlockInit.register(bus);
         //EnchantInit.register(bus);
         SoundInit.register(bus);
+        MobEffectInit.register(bus);
 
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         MinecraftForge.EVENT_BUS.register(this);

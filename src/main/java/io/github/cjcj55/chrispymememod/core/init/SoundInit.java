@@ -12,6 +12,7 @@ public class SoundInit {
     public static final DeferredRegister<SoundEvent> SOUND_EVENTS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, ChrispyMemeMod.MODID);
 
     public static RegistryObject<SoundEvent> DICE_ROLL = registerSoundEvents("dice_roll");
+    public static RegistryObject<SoundEvent> AIRHORN_MEME = registerSoundEvents("airhorn_meme");
 
     private static RegistryObject<SoundEvent> registerSoundEvents(String name) {
         ResourceLocation id = new ResourceLocation(ChrispyMemeMod.MODID, name);

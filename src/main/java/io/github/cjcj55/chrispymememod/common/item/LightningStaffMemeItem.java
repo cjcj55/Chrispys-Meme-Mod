@@ -42,16 +42,6 @@ public class LightningStaffMemeItem extends Item {
                     EntityType.LIGHTNING_BOLT.spawn(world, null, player, player.blockPosition(), MobSpawnType.TRIGGERED, true, true);
                     EntityType.LIGHTNING_BOLT.spawn(world, null, player, player.blockPosition(), MobSpawnType.TRIGGERED, true, true);
                     EntityType.LIGHTNING_BOLT.spawn(world, null, player, player.blockPosition(), MobSpawnType.TRIGGERED, true, true);
-                    EntityType.LIGHTNING_BOLT.spawn(world, null, player, player.blockPosition(), MobSpawnType.TRIGGERED, true, true);
-                    EntityType.LIGHTNING_BOLT.spawn(world, null, player, player.blockPosition(), MobSpawnType.TRIGGERED, true, true);
-                    EntityType.LIGHTNING_BOLT.spawn(world, null, player, player.blockPosition(), MobSpawnType.TRIGGERED, true, true);
-                    EntityType.LIGHTNING_BOLT.spawn(world, null, player, player.blockPosition(), MobSpawnType.TRIGGERED, true, true);
-                    EntityType.LIGHTNING_BOLT.spawn(world, null, player, player.blockPosition(), MobSpawnType.TRIGGERED, true, true);
-                    EntityType.LIGHTNING_BOLT.spawn(world, null, player, player.blockPosition(), MobSpawnType.TRIGGERED, true, true);
-                    EntityType.LIGHTNING_BOLT.spawn(world, null, player, player.blockPosition(), MobSpawnType.TRIGGERED, true, true);
-                    EntityType.LIGHTNING_BOLT.spawn(world, null, player, player.blockPosition(), MobSpawnType.TRIGGERED, true, true);
-                    EntityType.LIGHTNING_BOLT.spawn(world, null, player, player.blockPosition(), MobSpawnType.TRIGGERED, true, true);
-                    EntityType.LIGHTNING_BOLT.spawn(world, null, player, player.blockPosition(), MobSpawnType.TRIGGERED, true, true);
                 }
             return new InteractionResultHolder<>(InteractionResult.SUCCESS, itemStack);
         }

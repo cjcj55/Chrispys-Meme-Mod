@@ -17,6 +17,8 @@ public class ItemInit {
     public static final RegistryObject<Item> KNOCKBACK_STICK_2_ITEM = ITEMS.register("knockback_stick_2_item", () -> new KnockbackStick2Item());
     public static final RegistryObject<Item> KNOCKBACK_STICK_3_ITEM = ITEMS.register("knockback_stick_3_item", () -> new KnockbackStick3Item());
     public static final RegistryObject<Item> KNOCKBACK_STICK_4_ITEM = ITEMS.register("knockback_stick_4_item", () -> new KnockbackStick4Item());
+    public static final RegistryObject<Item> AIRHORN_MEME_ITEM = ITEMS.register("airhorn_meme_item", () -> new AirhornMemeItem());
+    public static final RegistryObject<Item> PIXIE_DUST_ITEM = ITEMS.register("pixie_dust_item", () -> new PixieDustItem());
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

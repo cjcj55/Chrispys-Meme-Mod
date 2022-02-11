@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "chrispymememod:item/airhorn_meme_item"
+    }
+}

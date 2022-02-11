@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "chrispymememod:item/pixie_dust_item"
+    }
+}
